@@ -58,7 +58,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    CameraGo
 
 # Display
 PRODUCT_PACKAGES += \
