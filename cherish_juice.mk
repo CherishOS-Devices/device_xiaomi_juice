@@ -12,6 +12,7 @@ $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
+CHERISH_BUILD_TYPE := OFFICIAL
 
 # FOD animations
 TARGET_WANTS_FOD_ANIMATIONS := true
@@ -26,3 +27,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys"
+
+PRODUCT_GENERIC_PROPERTIES += \
+    ro.cherish.maintainer=Nathaniel_Quitua
